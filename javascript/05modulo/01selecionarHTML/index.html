@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="title1">Curso Javascript Completo 2018</h1>
+
+  <main class="cmain" id="idmain">
+    <h2>subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+  </main>
+
+  <section class="csection" id="idsection">
+    <h3>subtitulo</h3>
+    <p class="paragrafo2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <p class="paragrafo2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+  </section>
+
+  <script>
+    // seleciona o elemento do id title1
+    document.getElementById('title1').textContent = 'Novo testo' // textContent para adicionar novo texto
+    document.querySelector('#title1').textContent = 'Outro novo texto' // o mesmo de cima porém manda o # para id e . para class
+    document.getElementsByClassName('paragrafo2')[0].textContent = 'oi pr' // retorna um html[] manda o indice[0]
+    document.querySelectorAll('.paragrafo2')[1].textContent = 'mudou por query' // seleciona todas as classe
+  </script>
+</body>
+</html>
