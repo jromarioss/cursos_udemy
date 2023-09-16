@@ -14,6 +14,61 @@
       "id": 3,
       "name": "Boné aba reta",
       "price": 29.9
+    },
+    {
+      "name": "Sofá",
+      "price": "300",
+      "id": 4
+    },
+    {
+      "name": "Teclado gamer",
+      "price": "199.90",
+      "id": 5
+    },
+    {
+      "name": "Teclado gamer2",
+      "price": "299.90",
+      "id": 6
+    },
+    {
+      "name": "Mouse",
+      "price": "99",
+      "id": 7
+    },
+    {
+      "name": "Mouse",
+      "price": "99",
+      "id": 8
+    },
+    {
+      "name": "Pera",
+      "price": "2.99",
+      "id": 9
+    },
+    {
+      "name": "Uva",
+      "price": "8.99",
+      "id": 10
+    },
+    {
+      "name": "Catuaba",
+      "price": "18.77",
+      "id": 11
+    },
+    {
+      "name": "Itabaui",
+      "price": "2.56",
+      "id": 12
+    },
+    {
+      "name": "dwdw",
+      "price": "2",
+      "id": 13
+    },
+    {
+      "name": "dwdw",
+      "price": "2",
+      "id": 14
     }
   ]
 }
