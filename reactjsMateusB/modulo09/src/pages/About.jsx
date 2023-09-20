@@ -1,6 +1,6 @@
 import { useContext } from "react";
 
-//import { CounterContext } from "../context/CounterContext";
+import { CounterContext } from "../context/CounterContext";
 
 //import { useTitleColorContext } from "../hooks/useTitleColorContext";
 
