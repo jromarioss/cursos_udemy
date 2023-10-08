@@ -1,0 +1,11 @@
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\bin\Debug\FormsAppNetFramework.exe.config
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\bin\Debug\FormsAppNetFramework.exe
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\bin\Debug\FormsAppNetFramework.pdb
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.csproj.AssemblyReference.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.Form1.resources
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.Properties.Resources.resources
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.csproj.GenerateResource.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.csproj.CoreCompileInputs.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.exe
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\FormsAppNetFramework\obj\Debug\FormsAppNetFramework.pdb

@@ -1,0 +1,17 @@
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\bin\Debug\net6.0-windows\OlaMundo.exe
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\bin\Debug\net6.0-windows\OlaMundo.deps.json
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\bin\Debug\net6.0-windows\OlaMundo.runtimeconfig.json
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\bin\Debug\net6.0-windows\OlaMundo.dll
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\bin\Debug\net6.0-windows\OlaMundo.pdb
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.csproj.AssemblyReference.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.Form1.resources
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.csproj.GenerateResource.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.AssemblyInfoInputs.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.AssemblyInfo.cs
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.csproj.CoreCompileInputs.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.dll
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\refint\OlaMundo.dll
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.pdb
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\OlaMundo.genruntimeconfig.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo01\OlaMundo\OlaMundo\obj\Debug\net6.0-windows\ref\OlaMundo.dll
