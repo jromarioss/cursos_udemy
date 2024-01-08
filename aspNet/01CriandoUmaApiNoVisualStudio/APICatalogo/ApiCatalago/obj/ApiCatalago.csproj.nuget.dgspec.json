@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romar\\Documentos\\GitHub\\cursos\\cursos_udemy\\aspNet\\07ProgramacaoAssincronaRepositorioEPaginacao\\APICatalogo\\APICatalogo.csproj": {}
+    "C:\\Users\\romar\\Documentos\\Estudos\\Cursos\\udemy\\aspNet\\webapi\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romar\\Documentos\\GitHub\\cursos\\cursos_udemy\\aspNet\\07ProgramacaoAssincronaRepositorioEPaginacao\\APICatalogo\\APICatalogo.csproj": {
+    "C:\\Users\\romar\\Documentos\\Estudos\\Cursos\\udemy\\aspNet\\webapi\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romar\\Documentos\\GitHub\\cursos\\cursos_udemy\\aspNet\\07ProgramacaoAssincronaRepositorioEPaginacao\\APICatalogo\\APICatalogo.csproj",
-        "projectName": "APICatalogo",
-        "projectPath": "C:\\Users\\romar\\Documentos\\GitHub\\cursos\\cursos_udemy\\aspNet\\07ProgramacaoAssincronaRepositorioEPaginacao\\APICatalogo\\APICatalogo.csproj",
+        "projectUniqueName": "C:\\Users\\romar\\Documentos\\Estudos\\Cursos\\udemy\\aspNet\\webapi\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj",
+        "projectName": "ApiCatalago",
+        "projectPath": "C:\\Users\\romar\\Documentos\\Estudos\\Cursos\\udemy\\aspNet\\webapi\\ApiCatalago\\ApiCatalago\\ApiCatalago.csproj",
         "packagesPath": "C:\\Users\\romar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romar\\Documentos\\GitHub\\cursos\\cursos_udemy\\aspNet\\07ProgramacaoAssincronaRepositorioEPaginacao\\APICatalogo\\obj\\",
+        "outputPath": "C:\\Users\\romar\\Documentos\\Estudos\\Cursos\\udemy\\aspNet\\webapi\\ApiCatalago\\ApiCatalago\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\romar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,33 +40,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[11.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.25, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -74,7 +52,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.3.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
