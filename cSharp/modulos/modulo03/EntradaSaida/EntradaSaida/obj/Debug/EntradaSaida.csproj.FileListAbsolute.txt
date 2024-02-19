@@ -1,8 +1,0 @@
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\bin\Debug\EntradaSaida.exe.config
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\bin\Debug\EntradaSaida.exe
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\bin\Debug\EntradaSaida.pdb
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.csproj.AssemblyReference.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.csproj.SuggestedBindingRedirects.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.csproj.CoreCompileInputs.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.exe
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.pdb

@@ -1,8 +1,0 @@
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\bin\Debug\Colecao.exe.config
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\bin\Debug\Colecao.exe
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\bin\Debug\Colecao.pdb
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\obj\Debug\Colecao.csproj.AssemblyReference.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\obj\Debug\Colecao.csproj.SuggestedBindingRedirects.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\obj\Debug\Colecao.csproj.CoreCompileInputs.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\obj\Debug\Colecao.exe
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo06\Colecao\Colecao\obj\Debug\Colecao.pdb

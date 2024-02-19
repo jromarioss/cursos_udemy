@@ -1,8 +1,0 @@
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\bin\Debug\InverterNomes.exe.config
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\bin\Debug\InverterNomes.exe
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\bin\Debug\InverterNomes.pdb
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\obj\Debug\InverterNomes.csproj.AssemblyReference.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\obj\Debug\InverterNomes.csproj.SuggestedBindingRedirects.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\obj\Debug\InverterNomes.csproj.CoreCompileInputs.cache
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\obj\Debug\InverterNomes.exe
-C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulo03\EntradaSaida\InverterNomes\obj\Debug\InverterNomes.pdb
