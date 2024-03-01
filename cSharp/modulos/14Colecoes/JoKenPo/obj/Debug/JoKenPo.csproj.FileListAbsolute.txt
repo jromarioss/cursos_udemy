@@ -1,0 +1,10 @@
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\bin\Debug\JoKenPo.exe.config
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\bin\Debug\JoKenPo.exe
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\bin\Debug\JoKenPo.pdb
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\obj\Debug\JoKenPo.csproj.AssemblyReference.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\obj\Debug\JoKenPo.Form1.resources
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\obj\Debug\JoKenPo.Properties.Resources.resources
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\obj\Debug\JoKenPo.csproj.GenerateResource.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\obj\Debug\JoKenPo.csproj.CoreCompileInputs.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\obj\Debug\JoKenPo.exe
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\JoKenPo\obj\Debug\JoKenPo.pdb

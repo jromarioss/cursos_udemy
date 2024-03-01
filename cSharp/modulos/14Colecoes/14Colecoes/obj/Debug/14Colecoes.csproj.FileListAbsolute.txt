@@ -1,0 +1,10 @@
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\bin\Debug\14Colecoes.exe.config
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\bin\Debug\14Colecoes.exe
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\bin\Debug\14Colecoes.pdb
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\obj\Debug\14Colecoes.csproj.AssemblyReference.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\obj\Debug\_14Colecoes.Form1.resources
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\obj\Debug\_14Colecoes.Properties.Resources.resources
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\obj\Debug\14Colecoes.csproj.GenerateResource.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\obj\Debug\14Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\obj\Debug\14Colecoes.exe
+C:\Users\romar\Documentos\Estudos\Cursos\udemy\cSharp\modulos\14Colecoes\obj\Debug\14Colecoes.pdb
