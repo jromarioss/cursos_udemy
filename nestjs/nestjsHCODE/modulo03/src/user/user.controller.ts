@@ -1,58 +1,36 @@
-import {
-  Body,
-  Controller,
-  Delete,
-  Get,
-  Param,
-  Patch,
-  Post,
-  Put,
-} from '@nestjs/common';
 
-@Controller('users')
+import { Controller, Post, Body, Get, Param, Put, Patch, Delete } from '@nestjs/common';
+
+@Controller('users')// /users
 export class UserController {
-  @Post()
-  async create(@Body() body) {
-    return { body };
+
+  @Post('postUser')
+  async postUser(@Body() body) {
+    return {body};
   }
 
-  @Get()
-  async read() {
-    return {
-      users: [],
-    };
+  @Get('getAllUsers')
+  async getAllUsers() {
+    return {users: []}
   }
 
-  @Get(':id')
-  async readOne(@Param() params) {
-    return {
-      user: {},
-      params,
-    };
+  @Get('getUser/:id')
+  async getUser(@Param() param) {
+    return {user: {}, param}
   }
 
-  @Put(':id')
-  async update(@Body() body, @Param() params) {
-    return {
-      method: 'put',
-      body,
-      params,
-    };
+  @Put('putUser/:id')
+  async putUser(@Body() body, @Param() id) {
+    return { body, id }
   }
 
-  @Patch(':id')
-  async updatePartial(@Body() body, @Param() params) {
-    return {
-      method: 'patch',
-      body,
-      params,
-    };
+  @Patch('patchUser/:id')
+  async patchUser(@Body() body, @Param() id) {
+    return { body, id }
   }
 
-  @Delete(':id')
-  async delete(@Param() params) {
-    return {
-      params,
-    };
+  @Delete('deleteUser/:id')
+  async deleteUser(@Param() id) {
+    return { id }
   }
 }
