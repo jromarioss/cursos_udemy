@@ -1,0 +1,23 @@
+// caso já tenha o banco dar o 'npx prism db pull'
+// depois roda 'npx prisma generate'
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement()) @db.UnsignedInt
+  name      String   @db.VarChar(100)
+  email     String   @unique(map: "email") @db.VarChar(120)
+  password  String   @db.VarChar(200)
+  birthAt   DateTime @db.Date
+  createdAt DateTime @default(now()) @db.Timestamp(0)
+  updatedAt DateTime @default(now()) @db.Timestamp(0)
+
+  @@map("users")
+}
