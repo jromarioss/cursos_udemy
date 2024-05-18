@@ -1,118 +1,76 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import * as bcrypt from 'bcrypt';
-import { CreateUserDTO } from './dtos/create-user.dto';
-import { PrismaService } from 'src/prisma/prisma.service';
-import { UpdatePutUserDTO } from './dtos/update-put-user.dto copy';
-import { UpdatePatchUserDTO } from './dtos/update-patch-user.dto';
-
+import { CreateUserDTO } from './DTO/create-user.dto';
+import { PrismaService } from '../primas/prisma.service';
+import { UpdatePutUserDTO } from './DTO/update-put-user.dto';
+import { UpdatePatchUserDTO } from './DTO/update-patch-user.dto';
+//Exception é das msg http para tratar erros
 @Injectable()
 export class UserService {
   constructor(private readonly prisma: PrismaService) {}
 
-  async create({ email, name, password }: CreateUserDTO) {
-    const passwordHashed = await bcrypt.hash(password, 8);
-
+  async createUser({ name, email, password }: CreateUserDTO) {
     return await this.prisma.user.create({
-      data: {
-        name,
-        email,
-        password: passwordHashed,
-      },
+      data: { name, email, password }
     });
   }
 
-  async list() {
-    return this.prisma.user.findMany();
+  async getUserById(id: number) {
+    await this.hasUser(id);
+
+    return await this.prisma.user.findUnique({//Retorna pelo id pq é único
+      where: { id }
+    });
   }
 
-  async show(id: number) {
-    await this.exists(id);
+  async getAllUsers() {
+    return await this.prisma.user.findMany();//Retorna tudo
+  }
 
-    return this.prisma.user.findUnique({
+  async putUser({ email, name, password, birthAt }: UpdatePutUserDTO, id: number) {
+    await this.hasUser(id);
+
+    if (!birthAt) {
+      birthAt = null;
+    } else {
+      birthAt = String(new Date(birthAt));
+    }
+
+    return await this.prisma.user.update({
+      where: { id },
+      data: { email, name, password, birthAt }
+    });
+  }
+
+  async patchUser(data: UpdatePatchUserDTO, id: number) {
+    await this.hasUser(id);
+
+    if (data.birthAt) {
+      data.birthAt = String(new Date(data.birthAt));
+    }
+
+    return await this.prisma.user.update({
+      where: { id },
+      data: data
+    });
+  }
+
+  async deleteUser(id: number) {
+    await this.hasUser(id);
+
+    return await this.prisma.user.delete({
+      where: { id }
+    });
+  }
+
+  async hasUser(id: number) {
+    const hasUser = await this.prisma.user.count({
       where: {
-        id,
-      },
+        id
+      }
     });
-  }
-
-  async update(
-    id: number,
-    { name, email, password, birthAt, role }: UpdatePutUserDTO,
-  ) {
-    await this.exists(id);
-
-    const passwordHashed = await bcrypt.hash(password, 8);
-
-    return this.prisma.user.update({
-      where: {
-        id,
-      },
-      data: {
-        name,
-        email,
-        password: passwordHashed,
-        birthAt: birthAt ? new Date(birthAt) : null,
-        role,
-      },
-    });
-  }
-
-  async updatePartial(
-    id: number,
-    { name, email, password, birthAt, role }: UpdatePatchUserDTO,
-  ) {
-    await this.exists(id);
-
-    const data: any = {};
-
-    if (birthAt) {
-      data.birthAt = new Date(birthAt);
-    }
-
-    if (email) {
-      data.email = email;
-    }
-
-    if (name) {
-      data.name = name;
-    }
-
-    if (password) {
-      const passwordHashed = await bcrypt.hash(password, 8);
-      data.password = passwordHashed;
-    }
-
-    if (role) {
-      data.role = role;
-    }
-
-    return this.prisma.user.update({
-      where: {
-        id,
-      },
-      data,
-    });
-  }
-
-  async delete(id: number) {
-    await this.exists(id);
-
-    return this.prisma.user.delete({
-      where: {
-        id,
-      },
-    });
-  }
-
-  async exists(id: number) {
-    if (
-      !(await this.prisma.user.count({
-        where: {
-          id,
-        },
-      }))
-    ) {
-      throw new NotFoundException(`O usuário ${id} não existe.`);
+  
+    if (!hasUser) {
+      throw new NotFoundException(`Usuário com o ${id} não encontrado!`);
     }
   }
 }

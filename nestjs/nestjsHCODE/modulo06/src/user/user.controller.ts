@@ -1,60 +1,46 @@
-import {
-  Body,
-  Controller,
-  Delete,
-  Get,
-  Param,
-  Patch,
-  Post,
-  Put,
-  UseInterceptors,
-  UseGuards,
-} from '@nestjs/common';
-import { CreateUserDTO } from './dtos/create-user.dto';
-import { UpdatePatchUserDTO } from './dtos/update-patch-user.dto';
-import { UpdatePutUserDTO } from './dtos/update-put-user.dto copy';
-import { UserService } from './user.service';
-import { LogInterceptor } from 'src/interceptors/log.interceptor';
-import { ParamId } from 'src/decorators/param-id.decorator';
-import { Role } from 'src/enums/role-enum';
-import { Roles } from 'src/decorators/roles.decorator';
-import { RoleGuard } from 'src/guards/role.guard';
-import { AuthGuard } from 'src/guards/auth.guard';
 
-@Roles(Role.Admin)
-@UseGuards(AuthGuard, RoleGuard)
-@UseInterceptors(LogInterceptor)
-@Controller('users')
+import { Controller, Post, Body, Get, Param, Put, Patch, Delete, ParseIntPipe, UseInterceptors } from '@nestjs/common';
+import { CreateUserDTO } from './DTO/create-user.dto';
+import { UpdatePutUserDTO } from './DTO/update-put-user.dto';
+import { UpdatePatchUserDTO } from './DTO/update-patch-user.dto';
+import { UserService } from './user.service';
+import { LogInterceptor } from '../interceptors/log.interceptor';
+import { ParamId } from '../decorators/param-id.decorator';
+//Os Param Decorators são os @Param @Body e assim por diante
+//@UseInterceptors(LogInterceptor) //Faz em todas as rotas
+@Controller('users')// /users
 export class UserController {
+
   constructor(private readonly userService: UserService) {}
 
-  @Post()
-  async create(@Body() data: CreateUserDTO) {
-    return this.userService.create(data);
+  //@UseInterceptors(LogInterceptor) //sabe quanto tempo demora para cria um user, faz uma rota por uma
+  @Post('postUser')
+  async postUser(@Body() data: CreateUserDTO) {
+    return await this.userService.createUser(data);
   }
 
-  @Get()
-  async list() {
-    return this.userService.list();
+  @Get('getAllUsers')
+  async getAllUsers() {
+    return await this.userService.getAllUsers();
   }
 
-  @Get(':id')
-  async show(@ParamId() id: number) {
-    return this.userService.show(id);
+  @Get('getUser/:id')
+  async getUser(@ParamId() id: number) {// aqui agora usa o decorators do paramid
+    return await this.userService.getUserById(id);
   }
 
-  @Put(':id')
-  async update(@Body() data: UpdatePutUserDTO, @Param() id: number) {
-    return this.userService.update(id, data);
+  @Put('putUser/:id')
+  async putUser(@Body() data: UpdatePutUserDTO, @Param('id', ParseIntPipe) id) {
+    return await this.userService.putUser(data,id)
   }
 
-  @Patch(':id')
-  async updatePartial(@Body() data: UpdatePatchUserDTO, @ParamId() id: number) {
-    return this.userService.updatePartial(id, data);
+  @Patch('patchUser/:id')
+  async patchUser(@Body() data: UpdatePatchUserDTO, @Param('id', ParseIntPipe) id) {
+    return await this.userService.patchUser(data, id)
   }
 
-  @Delete(':id') // converte para number
-  async delete(@ParamId() id: number) {
-    return this.userService.delete(id);
+  @Delete('deleteUser/:id')
+  async deleteUser(@Param('id', ParseIntPipe) id) { // ParseIntPipe converte ele para um number
+    return await this.userService.deleteUser(id);
   }
 }

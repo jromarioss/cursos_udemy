@@ -1,27 +1,20 @@
-import {
-  MiddlewareConsumer,
-  Module,
-  NestModule,
-  RequestMethod,
-  forwardRef,
-} from '@nestjs/common';
+import { MiddlewareConsumer, Module, NestModule, RequestMethod } from '@nestjs/common';
 import { UserController } from './user.controller';
 import { UserService } from './user.service';
-import { PrismaModule } from 'src/prisma/prisma.module';
-import { UserIdCheckMiddleware } from 'src/middlewares/user-id-check.middleware';
-import { AuthModule } from 'src/auth/auth.module';
+import { PrismaModule } from '../primas/prisma.module';
+import { UserIdCheckMiddleware } from '../middlewares/user-id-check.middleware';
 
 @Module({
-  imports: [PrismaModule, forwardRef(() => AuthModule)],
+  imports: [PrismaModule],
   controllers: [UserController],
   providers: [UserService],
-  exports: [UserModule],
+  exports: [],
 })
-export class UserModule implements NestModule {
+export class UserModule implements NestModule {//usar o nest Module ai obriga nos a usar o configure para usar o middleware
   configure(consumer: MiddlewareConsumer) {
-    consumer.apply(UserIdCheckMiddleware).forRoutes({
+    consumer.apply(UserIdCheckMiddleware).forRoutes({//manda para rotas
       path: 'users/:id',
-      method: RequestMethod.ALL,
-    });
+      method: RequestMethod.ALL//pega todo os metodos
+    });//aplica o middleware que vc quer usar
   }
 }
